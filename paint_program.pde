@@ -7,6 +7,8 @@ void setup() {
 }
 //when mouse is pressed creates a erase thing
 void draw() {
+  textSize(15);
+  text("press and hold C to draw in red. press and hold V to draw in green. press mouse and hold to activate erreser. press space bar to clear.", 10,15);
   if(mousePressed) {
     strokeWeight(30);
   stroke(b,b,b);
